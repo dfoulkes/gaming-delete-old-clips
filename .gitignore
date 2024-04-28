@@ -1,4 +1,4 @@
-/.cargo
+
 /target
 ### Rust template
 
@@ -25,3 +25,5 @@ Cargo.lock
 rust-project.json
 
 
+/.cargo/config.toml
+/.cargo/
