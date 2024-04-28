@@ -37,8 +37,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
 fn delete_files(files: Vec<String>) -> Result<(), Box<dyn Error>> {
     for file in files {
-      //  fs::remove_file(file)?;
-        println!("deleting file: {}", file); // remove the file
+        println!("deleting file: {}", file);
         fs::remove_file(file)?; // remove the file
     }
     Ok(())
